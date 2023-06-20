@@ -78,10 +78,7 @@ box-shadow:  20px 20px 0px #5a5a5a,
                 0 0 100px rgb(142, 1, 1),
   }
 
-  ul#nav-bar li{
-    align-items: center;
-    display: inline-block;
-  }
+  
   section ul {
     color: #fff;
     list-style: none;
