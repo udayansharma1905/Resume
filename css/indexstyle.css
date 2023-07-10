@@ -29,12 +29,15 @@ body {
     margin: 0;
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
   }
   
   .navbar{
     
     padding: 25px 30px;
-    background-color: transparent;
+    background-color: rgb(57, 57, 57);
+
+    padding: 25px 30px;
     height: 40px;
     margin: 5px;
   }
