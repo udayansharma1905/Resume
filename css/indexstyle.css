@@ -107,33 +107,7 @@ box-shadow:  20px 20px 0px #5a5a5a,
                           -20px -20px 22px #3e3e3e;
     
   }
-  .shadow__btn {
-    margin-left: 5px;
-    margin-right: 5px;
-    cursor: pointer;
-    padding: 10px 20px;
-    border: none;
-    font-size: 17px;
-    color: #ffffff;
-    border-radius: 7px;
-    letter-spacing: 4px;
-    font-weight: 700;
-    text-transform: uppercase;
-    transition: 0.5s;
-    transition-property: box-shadow;
-  }
-  
-  .shadow__btn {
-    background: rgb(74, 74, 74);
-    box-shadow: 0 0 25px rgb(41, 41, 41);
-  }
-  
-  .shadow__btn:hover {
-    box-shadow: 0 0 5px rgb(142, 1, 1),
-                0 0 25px rgb(142, 1, 1),
-                0 0 50px rgb(142, 1, 1),
-                0 0 100px rgb(142, 1, 1),
-  }
+
 
   
   section ul {
@@ -254,7 +228,9 @@ box-shadow:  20px 20px 0px #5a5a5a,
       width: 100%;
     }
 
-    .navbar a:not(:first-child) {display: none;}
+    .navbar a{
+        display: none;
+    }
     .navbar a.icon {
       float: right;
       display: block;
